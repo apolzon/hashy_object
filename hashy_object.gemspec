@@ -6,10 +6,10 @@ Gem::Specification.new do |s|
   s.name        = "hashy_object"
   s.version     = HashyObject::VERSION
   s.authors     = ["Chris Apolzon"]
-  s.email       = ["chrisa@manilla.com"]
+  s.email       = ["apolzon@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Generate a hash-like string representation of any Ruby object}
+  s.description = %q{Generate a hash-like string representation of any Ruby object}
 
   s.rubyforge_project = "hashy_object"
 
