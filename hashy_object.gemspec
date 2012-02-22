@@ -1,0 +1,23 @@
+# -*- encoding: utf-8 -*-
+$:.push File.expand_path("../lib", __FILE__)
+require "hashy_object/version"
+
+Gem::Specification.new do |s|
+  s.name        = "hashy_object"
+  s.version     = HashyObject::VERSION
+  s.authors     = ["Chris Apolzon"]
+  s.email       = ["chrisa@manilla.com"]
+  s.homepage    = ""
+  s.summary     = %q{TODO: Write a gem summary}
+  s.description = %q{TODO: Write a gem description}
+
+  s.rubyforge_project = "hashy_object"
+
+  s.files         = `git ls-files`.split("\n")
+  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
+  s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
+  s.require_paths = ["lib"]
+
+  s.add_development_dependency "rspec"
+  s.add_development_dependency "mocha"
+end
